@@ -39,7 +39,7 @@ class adminController extends Controller
 
 
     // edit book
-    public function edit($id){
+    public function edit($id=null){
         $book = Book::where('id', $id)->with('publisher')->with('books_author')->with('books_author.author')->with('books_category')->with('books_category.category')->first();
         if(!empty($book->image) and $book->image !== null){
             $img_link = Storage::url($book->image);
