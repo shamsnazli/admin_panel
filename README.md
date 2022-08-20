@@ -1,70 +1,57 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Admin Panel Project
 
-## About Laravel
+Dashboard to manage books and authors
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Project Description
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Dashboard to manage books, authors and classifications, with the ability to add, edit and delete books, authors, and classifications, all of these powers for one person, who is the admin.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Technologies used
 
-## Learning Laravel
+Laravel framework work version 8 has been used because of its advanced features and development tools that facilitate rapid web application development. Laravel also helps website developers simplify their development process with clean and reusable code.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### Packages and Libraries
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- **[Laravel v8](https://laravel.com/docs/8.x/installation)**
+- **[Dashboard Bootstrap v5](https://getbootstrap.com/)**
+- **[Spatie v5](https://spatie.be/docs/laravel-permission/v5/introduction)**
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## How to Use this Project
 
-### Premium Partners
+1. Download the project from git using
+git clone https://github.com/shamsnazli/admin_pane.git <br>2 . Download the libraries in the fendor file such as:  Spatie.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
+## Setup
+#### Database
+.env file
 
-## Contributing
+DB_CONNECTION=mysql<br>
+DB_HOST=127.0.0.1<br>
+DB_PORT=3306<br>
+DB_DATABASE=admin_panel<br>
+DB_USERNAME=root<br>
+DB_PASSWORD=<br>
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+#### Remember: Create the database before run artisan command.
 
-## Code of Conduct
+php artisan migrate<br>
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Note:
+##### Admin login in dashboard:
+Email: admin@gmail.com<br>
+Pass: 123456789
 
-## Security Vulnerabilities
+## Dashboard Screen
+![image_large](https://user-images.githubusercontent.com/92631191/185758394-9889d257-6a89-452f-beea-65e3dc07cb7c.png)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+![3](https://user-images.githubusercontent.com/92631191/185758399-7181faa0-0f2b-4d3a-9388-d1030357d459.png)
 
-## License
+![edit](https://user-images.githubusercontent.com/92631191/185758406-0e29dea8-389a-4edc-8259-b3e8c7ec69b9.png)
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-"# Dashboard-Project" 
-"# admin_panel" 
-"# admin_panel" 
-"# admin_panel" 
-"# admin_panel" 
-"# admin_panel" 
-"# admin_panel" 
-"# admin_panel" 
+![Capture4](https://user-images.githubusercontent.com/92631191/185758409-8c0b02d1-58da-4c30-84a7-4db636ebb235.PNG)
+
+
+
