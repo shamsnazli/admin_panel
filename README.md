@@ -22,7 +22,7 @@ Laravel framework work version 8 has been used because of its advanced features 
 ## How to Use this Project
 
 1. Download the project from git using
-git clone https://github.com/shamsnazli/admin_pane.git <br>2 . Download the libraries in the fendor file such as:  Spatie.
+git clone https://github.com/shamsnazli/admin_panel.git <br>2 .Download the libraries in the fendor file such as:  Spatie.
 
 ## Setup
 #### Database
